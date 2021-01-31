@@ -1,5 +1,40 @@
 .App {
-  text-align: center;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+
+
+.form-control {
+  margin: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.form-control label {
+  vertical-align: middle;
+  color: white;
+}
+.form-control input {
+  height: 22px;
+  padding-left: 8px;
+}
+
+.form-control button {
+  border: 1px solid cadetblue;
+  border-radius: 10px;
+  width: 155px;
+  height: 32px;
+  background-color: green;
+  color: white;
+}
+.form-control button:disabled {
+  background-color: #28292b;
+  color: #575757;
 }
 
 .App-logo {
